@@ -94,7 +94,7 @@ class ServerApp:
         # ── Top bar ───────────────────────────────────────────────────────────
         top = tk.Frame(self.root, bg=RED, pady=10)
         top.pack(fill="x")
-        tk.Label(top, text="🚨  RESCUE SERVER DASHBOARD",
+        tk.Label(top, text="🚨  DISASTER COMMUNICATION - RESCUE SERVER DASHBOARD",
                  font=("Segoe UI", 14, "bold"),
                  bg=RED, fg="white").pack(side="left", padx=16)
         self.ip_label = tk.Label(top,
