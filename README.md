@@ -27,6 +27,11 @@ The system consists of a **Rescue Server (Dashboard)** for emergency responders 
 
 ## System Architecture
 
+*This is part of the whole assembly project: an autonomous driven drone and an antenna to track phone signals.*
+
+![System Architecture](com.png)
+[Image 1]
+
 `	ext
 ┌─────────────────────────────────────────────────────────────┐
 │                    LOCAL NETWORK (Wi-Fi)                     │
@@ -49,6 +54,15 @@ The system consists of a **Rescue Server (Dashboard)** for emergency responders 
                     │  (Multiple devices in area)     │
                     └─────────────────────────────────┘
 `
+
+## Drone & Antenna Subsystems
+
+This disaster communication platform is integrated as a critical component within a larger emergency response system consisting of:
+
+- **Autonomous Drone System**: An unmanned aerial vehicle (UAV) designed for autonomous navigation in disaster-stricken areas to support search and rescue operations. The drone provides aerial reconnaissance and can serve as a mobile relay point to extend local network coverage in hard-to-reach or obstructed zones.
+- **Antenna Tracking System**: A custom-built directional antenna system engineered to track and locate phone signals in areas with compromised infrastructure. This subsystem works in conjunction with the communication platform to help pinpoint the locations of civilians in need of assistance.
+
+These subsystems work together with the disaster communication app to enhance situational awareness and improve the speed and precision of rescue operations in high earthquake-risk zones.
 
 ## Components
 
