@@ -32,29 +32,6 @@ The system consists of a **Rescue Server (Dashboard)** for emergency responders 
 ![System Architecture](com.png)
 [Image 1]
 
-`	ext
-┌─────────────────────────────────────────────────────────────┐
-│                    LOCAL NETWORK (Wi-Fi)                     │
-│                No Internet Connection Required               │
-└─────────────────────────────────────────────────────────────┘
-                          │                │
-                          │ UDP Broadcast  │ TCP Connection
-                          │ (Discovery)    │ (Messaging)
-                          ▼                ▼
-                    ┌─────────────────────────────────┐
-                    │  Rescue Server Dashboard        │
-                    │  (Rescue Team / Emergency Ops)   │
-                    └─────────────────────────────────┘
-                              ▲     ▲     ▲
-                              │     │     │
-                           (msg)  (status)(loc/img/voice)
-                              │     │     │
-                    ┌─────────┴─────┴─────┴─────────┐
-                    │   Civilian Client Apps         │
-                    │  (Multiple devices in area)     │
-                    └─────────────────────────────────┘
-`
-
 ## Drone & Antenna Subsystems
 
 This disaster communication platform is integrated as a critical component within a larger emergency response system consisting of:
