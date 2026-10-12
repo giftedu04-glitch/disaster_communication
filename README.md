@@ -27,7 +27,8 @@ The system consists of a **Rescue Server (Dashboard)** for emergency responders 
 
 ## System Architecture
 
-![System Architecture](com.png)
+![System Architecture](com.png) 
+
 *This is part of the whole assembly project: an autonomous driven drone and an antenna to track phone signals.*
 
 ## Drone & Antenna Subsystems
